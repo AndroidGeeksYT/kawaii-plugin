@@ -31,7 +31,7 @@ o.ruler = false
 -- disable nvim intro
 opt.shortmess:append "sI"
 
-o.signcolumn = "yes"
+o.signcolumn = "no"
 o.splitbelow = true
 o.splitright = true
 o.timeoutlen = 400
