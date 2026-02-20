@@ -66,6 +66,10 @@ A fuzzy file finder, picker, sorter, previewer and much more:
 
 For detailed info list, check [features page](https://nvchad.com/docs/features)
 -->
+## Install Guide
+
+[kawaii](https://github.com/AndroidGeeksYT/kawaii)
+
 ## Plugins list
 
 - Many beautiful themes, theme toggler by our [kawaii-base plugin](https://github.com/AndroidGeeksYT/kawaii-base)
