@@ -12,12 +12,6 @@
 
 <div align="center">
   <p>
-    <a href="https://github.com/AndroidGeeksYT/kawaii/releases/latest">
-      <img
-        alt="Latest release"
-        src="https://img.shields.io/github/v/releases/AndroidGeeksYT/kawaii?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&include_prerelease&sort=semver"
-      />
-    </a>
     <a href="https://github.com/AndroidGeeksYT/kawaii/pulse">
       <img
         alt="Last commit"
