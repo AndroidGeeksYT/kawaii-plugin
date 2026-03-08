@@ -79,6 +79,41 @@
 
 - Kawaii is supposed to be used with its [starter config](https://github.com/AndroidGeeksYT/kawaii-starter), so kawaii main repo ( this repo ) can be imported as a plugin via lazy's import feature and then you can easily use this repo's modules like autocmds etc.
 
+## ⚙️ Requirements
+
+- Neovim `0.9+`
+- `git`
+- `ripgrep`
+- `clang`
+- `python`
+- `nodejs`
+- `npm`
+- `tree-sitter-cli`
+- A Nerd Font (e.g., [Hack Nerd Font](https://www.nerdfonts.com/))
+
+## Android / Termux
+
+You also need a nerdfonts.
+
+```fish
+curl -fLo ~/.termux/font.ttf https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/UbuntuMono/Regular/UbuntuMonoNerdFont-Regular.ttf
+```
+
+```fish
+pkg update && pkg upgrade -y
+pkg install neovim git ripgrep clang python nodejs
+git clone https://github.com/AndroidGeeksYT/kawaii-starter ~/.config/nvim/ && nvim
+```
+
+## Linux
+
+```fish
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install git ripgrep clang python-is-python3 nodejs npm -y
+sudo npm install tree-sitter-cli
+git clone https://github.com/AndroidGeeksYT/kawaii-starter ~/.config/nvim/ && nvim
+```
+
 ## Theme Showcase
 
 <details><summary> <b>Images (Click to expand!)</b></summary>
